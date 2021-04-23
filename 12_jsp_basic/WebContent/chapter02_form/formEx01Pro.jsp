@@ -14,18 +14,19 @@
 		- request.getParameter(); 의 기본 반환타입은 문자열이다.
 	 --%>
 	 
-	<%
+	<% 
+			
 		request.setCharacterEncoding("utf-8");
-		
+	
 		String language = request.getParameter("language");
-		String reason = request.getParameter("reason");
-		// int age = request.getParameter("age"); 
-		int age = Integer.parseInt(request.getParameter("age"));
-		// 숫자 데이터 형태일 경우는 숫자 형변환을 해주어야 한다.
+		String reason   = request.getParameter("reason");
+		//int age 	    = request.getParameter("age");
+		// 숫자 데이터 형태일 경우는 추가적으로 숫자 형변환을 해주어야 한다.
+		int age 	    = Integer.parseInt(request.getParameter("age"));
 		
-		System.out.println("========================================");
-		System.out.println("여기서 부터는 '백엔드' 영역입니다.");
-		System.out.println("좋아하는 언어 : " + language);
+		System.out.println("======================================");
+		System.out.println("여기서 부터는 '백 앤드' 의 영역입니다. ");
+		System.out.println("좋아 하는 언어 : " +  language);
 		System.out.println("이유 : " + reason);
 		System.out.println("나이 : " + age);
 		System.out.println();
