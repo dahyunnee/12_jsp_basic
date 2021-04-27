@@ -36,6 +36,8 @@
 			invalidate() 							: 세션정보를 제거한다. (초기화 , 주로 로그아웃시 사용)
 			setMaxInactiveInterval(유지기간(초))	: 세션을 유지하기 위한 세션 유지시간을 초 단위로 설정한다. (기본값은 30분)
 
+		SSO (Single Sign On)
+		케베로스
 	-->
 
 	<h2>로그인폼</h2>
