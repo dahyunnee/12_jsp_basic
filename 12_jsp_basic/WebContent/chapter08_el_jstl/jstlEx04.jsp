@@ -8,6 +8,12 @@
 </head>
 <body>
 	
+	<%--
+
+		- 자주 쓰는 문법만 소개하며 상세한 옵션들은 상황이 생겼을때 JSTL API를 찾아가면서 적용하면 충분하다. 
+
+ 	--%>
+ 	
 	<h3>날짜 형식</h3>
 	<p><fmt:formatDate value="${now }"/></p>
 	<p><fmt:formatDate value="${now }" pattern="yyyy-MM-dd"/></p>
